@@ -1,6 +1,7 @@
 # build
 FROM node:20 AS build
 WORKDIR /app
+COPY ./browser /app/browser
 COPY package*.json ./
 RUN npm ci
 COPY . .
