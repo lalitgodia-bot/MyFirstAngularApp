@@ -19,10 +19,21 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/assets/theme/img"
             ],
-            "styles": [
-              "src/styles.css"
+             "styles": [
+              "src/styles.css",
+              "src/assets/theme/css/style.css",
+               "src/assets/theme/css/bootstrap.min.css",
+              "src/assets/theme/lib/owlcarousel/assets/owl.carousel.min.css"
+            ],
+            "scripts": [
+              "src/assets/theme/lib/easing/easing.min.js",
+              "src/assets/theme/lib/waypoints/waypoints.min.js",
+              "src/assets/theme/lib/counterup/counterup.min.js",
+              "src/assets/theme/lib/owlcarousel/owl.carousel.min.js",
+              "src/assets/theme/js/main.js"
             ]
           },
           "configurations": {
@@ -72,14 +83,28 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/assets/theme/img"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/theme/css/style.css",
+               "src/assets/theme/css/bootstrap.min.css",
+              "src/assets/theme/lib/owlcarousel/assets/owl.carousel.min.css"
+            ],
+            "scripts": [
+              "src/assets/theme/lib/easing/easing.min.js",
+              "src/assets/theme/lib/waypoints/waypoints.min.js",
+              "src/assets/theme/lib/counterup/counterup.min.js",
+              "src/assets/theme/lib/owlcarousel/owl.carousel.min.js",
+              "src/assets/theme/js/main.js"
             ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "09d741cd-1b0d-4cb9-a186-18e4036994a5"
   }
 }
